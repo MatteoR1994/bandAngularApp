@@ -1,24 +1,25 @@
 .center-div {
     grid-area: content;
     width: 100%;
-    height: 80vh;
+    height: 70vh;
     padding-top: 30px;
     padding-bottom: 30px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .s1, .s2, .s3, .s4 {
-    width: 40%;
+    width: 244px;
     height: 100%;
-    background-color: tomato;
     display: flex;
     flex-direction: row;
+    transition: width 2s;
 }
 
 .mus-photo {
-    width: 40%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -26,21 +27,28 @@
 }
 
 .mus-photo img {
-    height: 90%;
+    width: 240px;
+    // border: 3px solid #DCC278;
+}
+
+.s1:hover, .s2:hover, .s3:hover, .s4:hover {
+    width: 50%;
+    background-color: #D3D3D3;
+    color: black;
+    border-radius: 8px;
+    .artist {
+    //    border-color: black; 
+    border: 2px solid black;
+    }
+    .mus-photo {
+        padding-left: 6px;
+    }
 }
 
 .mus-info {
-    width: 0;
-    transition: width 2s;
-}
-
-.mus-info:hover, .s2:hover, .s3:hover, .s4:hover {
-    width: 90%;
-    height: 80vh;
-}
-
-.s2 {
-    width: 40%;
-    height: 100%;
-    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    line-height: 20px;
 }
