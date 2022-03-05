@@ -6,9 +6,10 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { WelcomeComponent } from './components/welcome/welcome.component';
-import { IntroComponent } from './components/intro/intro.component';
 import { GalleryComponent } from './components/gallery/gallery.component';
 import { MusicComponent } from './components/music/music.component';
+import { SingersComponent } from './components/singers/singers.component';
+import { NavMenuComponent } from './components/nav-menu/nav-menu.component';
 
 @NgModule({
   declarations: [
@@ -16,9 +17,10 @@ import { MusicComponent } from './components/music/music.component';
     HeaderComponent,
     FooterComponent,
     WelcomeComponent,
-    IntroComponent,
     GalleryComponent,
-    MusicComponent
+    MusicComponent,
+    SingersComponent,
+    NavMenuComponent
   ],
   imports: [
     BrowserModule,

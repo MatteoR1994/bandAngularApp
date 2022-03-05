@@ -1,0 +1,24 @@
+header {
+    grid-area: header;
+    background-color: black;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // visibility: hidden;
+    // animation: 2s fadeInBandText ease-in 16s forwards;
+}
+
+@keyframes fadeInBandText {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+      visibility: visible;
+    }
+}
+
+header img {
+    height: 60%;
+}
