@@ -10,6 +10,7 @@ import { GalleryComponent } from './components/gallery/gallery.component';
 import { MusicComponent } from './components/music/music.component';
 import { SingersComponent } from './components/singers/singers.component';
 import { NavMenuComponent } from './components/nav-menu/nav-menu.component';
+import { GalleryElementComponent } from './components/gallery-element/gallery-element.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { NavMenuComponent } from './components/nav-menu/nav-menu.component';
     GalleryComponent,
     MusicComponent,
     SingersComponent,
-    NavMenuComponent
+    NavMenuComponent,
+    GalleryElementComponent
   ],
   imports: [
     BrowserModule,

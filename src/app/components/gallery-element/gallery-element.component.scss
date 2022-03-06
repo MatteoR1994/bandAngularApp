@@ -1,0 +1,10 @@
+.image-container img {
+    width: 290px;
+    border: 2px solid white;
+    transition: width 1s;
+    cursor: pointer;
+}
+
+.image-container img:hover {
+    width: 310px;
+}
