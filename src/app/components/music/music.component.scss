@@ -1,0 +1,37 @@
+.center-div {
+    grid-area: content;
+    width: 100%;
+    min-height: 80vh;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #dcc178c2;
+}
+
+.songs-div {
+    width: 90%;
+    min-height: 70vh;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.song-container {
+    width: 70%;
+    margin-bottom: 20px;
+    border-bottom: 1px solid black;
+}
+
+.song-info {
+    margin-bottom: 20px;
+}
+
+.song-title {
+    font-weight: bold;
+    font-size: x-large;
+}
